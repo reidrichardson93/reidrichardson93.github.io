@@ -9,8 +9,44 @@
 	line-height:inherit;
 	color:inherit;
 }
-
+html, body{
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size:18px;
+	line-height:30px;
+	color:#444;
+	text-shadow:1px 1px 0px #fff;
+}
 
 body{
+	text-align:center;
 	background-color:teal;  
+}
+
+h1{
+	font-size:36px;
+	line-height:50px;
+	font-weight:bold;
+}
+h1 sub{
+	color:#aaa;
+	vertical-align:baseline;
+}
+h1 sub:before{
+	color:red;
+	content:"(";
+}
+h1 sub:after{
+	color:green;
+	content:")";
+}
+img{
+	border-radius:50%;
+}
+
+.hero{
+	outline:1px solid red;
+	height:100vh; 
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
 }
